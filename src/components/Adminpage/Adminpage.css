@@ -1,0 +1,113 @@
+/* Adminpage.css */
+
+/* Navbar */
+.navbar {
+  margin-bottom: 20px; /* Space below the navbar */
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #495057; /* Slightly lighter background on hover */
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  padding: 20px;
+}
+
+/* Dashboard Header (commented out in your component) */
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Statistics Cards */
+.dashboard-statistics {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 24%; /* Adjust width for spacing */
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Charts */
+.dashboard-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chart-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Recent Activities */
+.dashboard-recent-activities {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-recent-activities h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.dashboard-recent-activities ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-recent-activities li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}

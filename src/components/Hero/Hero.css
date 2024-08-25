@@ -1,0 +1,125 @@
+
+.Hero_container{
+  width:100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7),rgba(8, 0, 58, 0.7)), url("https://png.pngtree.com/background/20230623/original/pngtree-blue-background-credit-card-icon-in-3d-render-picture-image_3990162.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hero-text{
+  text-align: center;
+  max-width: 800px;
+
+}
+
+.hero-text h1{
+  font-size: 60px;
+  font-weight: 600;
+  color: #c5e5e4;
+}
+
+.hero-text p{
+  max-width: 700px;
+  margin: 10px auto 20px;
+  color: #c5e5e4;
+}
+
+/* From Uiverse.io by ryota1231 */ 
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  /* background-color:  */
+  border-radius: 100px;
+  font-weight: 600;
+  color: #1f387e;
+  box-shadow: 0 0 0 2px #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  margin: auto;
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: #1f387e;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #c5e5e4;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  align-items: center;
+  
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+  width: -50px;
+  
+}
+
+.animated-button:hover svg {
+  fill: #b8c5e7;
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 22px;
+  height: 220px;
+  opacity: 1;
+}

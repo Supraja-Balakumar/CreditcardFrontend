@@ -1,0 +1,112 @@
+/* Managecard.css */
+
+.managecard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+    margin-top: 50px;
+  }
+  
+  .managecard-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .managecard-table th, .managecard-table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .managecard-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .managecard-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .managecard-table td {
+    vertical-align: middle;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+  }
+  
+  .status.pending {
+    background-color: #f39c12;
+  }
+  
+  .status.approved {
+    background-color: #28a745;
+  }
+  
+  .status.rejected {
+    background-color: #dc3545;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .approve-btn, .reject-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.875rem;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .approve-btn {
+    background-color: #28a745;
+  }
+  
+  .reject-btn {
+    background-color: #dc3545;
+  }
+  
+  .approve-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .reject-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
